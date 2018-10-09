@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		EC683E27213D57B9008D4B14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC683E26213D57B9008D4B14 /* AppDelegate.swift */; };
-		EC683E29213D57B9008D4B14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC683E28213D57B9008D4B14 /* ViewController.swift */; };
+		EC683E29213D57B9008D4B14 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC683E28213D57B9008D4B14 /* LoginVC.swift */; };
 		EC683E2C213D57B9008D4B14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC683E2A213D57B9008D4B14 /* Main.storyboard */; };
 		EC683E2E213D57BB008D4B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC683E2D213D57BB008D4B14 /* Assets.xcassets */; };
 		EC683E31213D57BB008D4B14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC683E2F213D57BB008D4B14 /* LaunchScreen.storyboard */; };
+		EC991F28213FE31E00250C0D /* Stackyard.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC991F27213FE31E00250C0D /* Stackyard.ttf */; };
+		EC991F2A213FE38D00250C0D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC991F29213FE38D00250C0D /* MainVC.swift */; };
+		EC99C4D421492E0600FB7D76 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC99C4D321492E0600FB7D76 /* RecipeTableViewCell.swift */; };
+		EC99C4D621492FCE00FB7D76 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC99C4D521492FCE00FB7D76 /* RecipeModel.swift */; };
+		EC99C4D82149323500FB7D76 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC99C4D72149323500FB7D76 /* RecipeTableViewController.swift */; };
+		ECA8BE6E214FBB44000CC0F6 /* AddFeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8BE6D214FBB44000CC0F6 /* AddFeaturedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC683E23213D57B9008D4B14 /* Activity3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Activity3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC683E26213D57B9008D4B14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC683E28213D57B9008D4B14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC683E28213D57B9008D4B14 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		EC683E2B213D57B9008D4B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC683E2D213D57BB008D4B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC683E30213D57BB008D4B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC683E32213D57BB008D4B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC991F27213FE31E00250C0D /* Stackyard.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stackyard.ttf; sourceTree = "<group>"; };
+		EC991F29213FE38D00250C0D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		EC99C4D321492E0600FB7D76 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		EC99C4D521492FCE00FB7D76 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		EC99C4D72149323500FB7D76 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
+		ECA8BE6D214FBB44000CC0F6 /* AddFeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeaturedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +66,15 @@
 		EC683E25213D57B9008D4B14 /* Activity3 */ = {
 			isa = PBXGroup;
 			children = (
+				EC991F27213FE31E00250C0D /* Stackyard.ttf */,
 				EC683E26213D57B9008D4B14 /* AppDelegate.swift */,
-				EC683E28213D57B9008D4B14 /* ViewController.swift */,
+				EC683E28213D57B9008D4B14 /* LoginVC.swift */,
 				EC683E2A213D57B9008D4B14 /* Main.storyboard */,
+				ECA8BE6D214FBB44000CC0F6 /* AddFeaturedViewController.swift */,
+				EC99C4D72149323500FB7D76 /* RecipeTableViewController.swift */,
+				EC99C4D521492FCE00FB7D76 /* RecipeModel.swift */,
+				EC99C4D321492E0600FB7D76 /* RecipeTableViewCell.swift */,
+				EC991F29213FE38D00250C0D /* MainVC.swift */,
 				EC683E2D213D57BB008D4B14 /* Assets.xcassets */,
 				EC683E2F213D57BB008D4B14 /* LaunchScreen.storyboard */,
 				EC683E32213D57BB008D4B14 /* Info.plist */,
@@ -125,6 +143,7 @@
 				EC683E31213D57BB008D4B14 /* LaunchScreen.storyboard in Resources */,
 				EC683E2E213D57BB008D4B14 /* Assets.xcassets in Resources */,
 				EC683E2C213D57B9008D4B14 /* Main.storyboard in Resources */,
+				EC991F28213FE31E00250C0D /* Stackyard.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC683E29213D57B9008D4B14 /* ViewController.swift in Sources */,
+				EC683E29213D57B9008D4B14 /* LoginVC.swift in Sources */,
+				EC991F2A213FE38D00250C0D /* MainVC.swift in Sources */,
+				EC99C4D621492FCE00FB7D76 /* RecipeModel.swift in Sources */,
+				EC99C4D82149323500FB7D76 /* RecipeTableViewController.swift in Sources */,
+				ECA8BE6E214FBB44000CC0F6 /* AddFeaturedViewController.swift in Sources */,
 				EC683E27213D57B9008D4B14 /* AppDelegate.swift in Sources */,
+				EC99C4D421492E0600FB7D76 /* RecipeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +307,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2UD954Q3V9;
 				INFOPLIST_FILE = Activity3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ph.edu.addu.Activity3;
+				PRODUCT_BUNDLE_IDENTIFIER = ph.edu.addu.PasigadoRicetta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -301,13 +326,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2UD954Q3V9;
 				INFOPLIST_FILE = Activity3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ph.edu.addu.Activity3;
+				PRODUCT_BUNDLE_IDENTIFIER = ph.edu.addu.PasigadoRicetta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
